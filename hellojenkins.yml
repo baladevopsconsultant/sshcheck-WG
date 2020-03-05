@@ -3,7 +3,7 @@
   hosts: node1
   tasks:
    - name: Say HELLO world
-     command: echo "Hello worldi version3 - integration with Git"
+     command: echo "Hello worldi version 4 - integration with Git"
      register: output
    - debug:
       var: output
