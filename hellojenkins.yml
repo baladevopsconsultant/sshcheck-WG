@@ -1,0 +1,9 @@
+---
+- name: Ansible - GIT - Jenkins 
+  hosts: node1
+  tasks:
+   - name: Say HELLO world
+     command: echo "Hello world"
+     register: output
+   - debug:
+      var: output
